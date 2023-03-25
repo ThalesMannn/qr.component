@@ -19,7 +19,7 @@ body {
     padding: 5% 18%;
 }
 
-.caixa {
+.container {
     background-color: var(--fundo-branco);
     width: 50%;
     margin: 0 auto;
@@ -27,17 +27,17 @@ body {
     border-radius: 20px;
 }
 
-.imagem {
+.container__um {
     display: flex;
     justify-content: center;
 }
 
-.caixa__imagem {
+.container__imagem {
     width: 90%;
     border-radius: 10px;
 }
 
-.container {
+.container__dois {
     display: flex;
     flex-direction: column;
 }
